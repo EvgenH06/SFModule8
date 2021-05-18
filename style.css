@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+p, h1, h2 {
+    font-family: 'Pangolin';
+}
+
+body {
+    background: #9479fa;
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ background: #D8E3AB;
+ height: 120px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+
+ul { 
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: right;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.myImg img {
+    margin-top: 50px;
+    padding-left: 20px;
+    width: 400px;
+    
+}
+
+.fullname {
+    margin-right: 20px;
+      
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+    font-family: 'Pangolin';
+}
+
+.footer {
+    background-color: #5882FA;
+    
+}
